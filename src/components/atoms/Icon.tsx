@@ -1,20 +1,21 @@
 import { cn } from '@/lib/cn'
-import React, { ReactNode } from 'react'
+import  { ComponentType } from 'react'
 
 interface Props {
       size: number,
-    color: 'primary' | 'muted' | 'disabled',
-    Icon:ReactNode,
+      color: 'black' | 'primary' | 'disabled',
+     Icon:ComponentType<{size: number, className?:string}>,
     className?:string
 }
 export default function Icon(
-  {  size,
-    color,
+  {  size=50,
+    color='black',
     Icon,
     className}: Props
 ) {
 const colors = {
-    'primary': 'ds-text-primary',
+  'primary': 'ds-text-alt',
+    'black': 'ds-text-primary',
     'muted': 'ds-text-muted',
     'disabled': 'ds-text-disabled',
     
