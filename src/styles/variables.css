@@ -14,6 +14,7 @@
     --color-bg: #ffffff;
     --color-bg-alt: #f9f9fb;
     --color-bg-form: #eff0f3;
+    --color-bg-theme-button:#e0e1e3;
 
     /* Text Colors */
     --color-text-primary: #1e1f24;
@@ -26,6 +27,8 @@
     --color-bg-dark: #000000;
     --color-bg-alt-dark: #1E2021;
     --color-bg-form-dark: #222325;
+        --color-bg-theme-button-dark:#7e7e7e;
+
 
     /* Text dark Colors */
     --color-text-primary-dark: #EEEEF0;

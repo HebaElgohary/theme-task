@@ -46,6 +46,9 @@
   .ds-bg-form {
     background-color: var(--color-bg-form);
   }
+  .ds-bg-theme-button{
+    background-color: var(--color-bg-theme-button);
+  }
   /* ================= COLORS ================= */
   .ds-text-primary {
     color: var(--color-text-primary);
