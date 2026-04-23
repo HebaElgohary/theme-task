@@ -19,18 +19,18 @@ export const databoxes = [
 export const SectionCardData = [
   {
     id: 1,
-    title: "Create Your Survey",
-    text: "Choose a template or start from scratch using our easy-to-use builder",
+    title: "card1.title",
+    text: "card1.text",
   },
   {
     id: 2,
-    title: "Share With Your Audience",
-    text: "Send your survey via email, social media, or embed it in your website",
+    title: "card2.title",
+    text: "card2.text",
   },
   {
     id: 3,
-    title: "Analyze Responses",
-    text: "Get instant insights with clean charts and downloadable reports",
+    title: "card3.title",
+    text: "card3.text",
   },
 ];
 
