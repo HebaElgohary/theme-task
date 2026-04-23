@@ -1,7 +1,9 @@
 import SectionCard from "../molecules/SectionCard";
 import {SectionCardData} from '../../utils/data'
+import { useTranslations } from "next-intl";
 
 export default function HowItWorks() {
+  const t = useTranslations('sectionCard')
 
   
   return (
@@ -10,8 +12,8 @@ export default function HowItWorks() {
          return (
            <SectionCard 
              key={card.id}
-             title={card.title}
-             text={card.text}
+             title={t(card['title']) }
+             text={t(card['text'])}
            />
          );
        })}

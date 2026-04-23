@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import AppProviders from "../providers/AppProviders";
+import LocaleSwitcher from "@/components/atoms/LocaleSwitcher";
+import { changeLocaleAction } from "@/i18n/locale";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -30,7 +32,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
        <AppProviders>
         {children}
-
+<LocaleSwitcher changeLocaleAction={changeLocaleAction} />
        </AppProviders>
        </body>
 
